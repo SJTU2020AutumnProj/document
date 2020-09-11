@@ -1,3 +1,3 @@
 # document
 Document
-- [Fisrt iteration](First iteration)
+- [First iteration](First iteration)
