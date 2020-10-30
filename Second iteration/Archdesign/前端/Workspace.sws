@@ -4,8 +4,9 @@
 
 <Workspace>
 	<Local Expanded="Yes">
-		<Model Expanded="Yes" ID="{EFE7FC2E-067D-4F49-B751-150F32F7663F}" Name="小箱交（类图）" Type="{18112060-1A4B-11D1-83D9-444553540000}" URL="小箱交（类图）.oom"/>
-		<Model Expanded="Yes" ID="{94D2F3BE-6F96-4751-B4F2-E5D027046A4D}" Name="小箱交" Type="{18112060-1A4B-11D1-83D9-444553540000}" URL="小箱交（用例图）.oom"/>
+		<Model Expanded="Yes" ID="{EFE7FC2E-067D-4F49-B751-150F32F7663F}" Loaded="No" Name="小箱交（类图）" Type="{18112060-1A4B-11D1-83D9-444553540000}" URL="小箱交（类图）.oom"/>
+		<Model Expanded="Yes" ID="{94D2F3BE-6F96-4751-B4F2-E5D027046A4D}" Loaded="No" Name="小箱交" Type="{18112060-1A4B-11D1-83D9-444553540000}" URL="小箱交（用例图）.oom"/>
+		<Model Expanded="Yes" ID="{B0A6E1C2-FE49-431C-9F16-9AD07477E638}" Name="小箱交" Type="{18112060-1A4B-11D1-83D9-444553540000}" URL="小箱交(前端逻辑部署).oom"/>
 	</Local>
 	<BrowserModule Name="Repository"/>
 </Workspace>
