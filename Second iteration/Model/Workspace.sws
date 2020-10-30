@@ -5,8 +5,9 @@
 <Workspace>
 	<Local Expanded="Yes">
 		<Model Expanded="Yes" ID="{EFE7FC2E-067D-4F49-B751-150F32F7663F}" Name="小箱交（类图）" Type="{18112060-1A4B-11D1-83D9-444553540000}" URL="小箱交（类图）.oom"/>
-		<Model Expanded="Yes" ID="{EC087F7A-3CA7-4C8F-B915-57DF2C33A195}" Loaded="No" Name="coursereg_analysis" Type="{18112060-1A4B-11D1-83D9-444553540000}" URL="../Reference/Coursereg_PD16/Coursereg_PD16/coursereg_analysis.oom"/>
-		<Model ID="{94D2F3BE-6F96-4751-B4F2-E5D027046A4D}" Name="小箱交" Type="{18112060-1A4B-11D1-83D9-444553540000}" URL="小箱交（用例图）.oom"/>
+		<Model Expanded="Yes" ID="{EC087F7A-3CA7-4C8F-B915-57DF2C33A195}" Loaded="No" Name="coursereg_analysis" Type="{18112060-1A4B-11D1-83D9-444553540000}" URL="/Code/XiaoXiangJiao/model sample/coursereg_analysis.oom"/>
+		<Model Expanded="Yes" ID="{94D2F3BE-6F96-4751-B4F2-E5D027046A4D}" Loaded="No" Name="小箱交" Type="{18112060-1A4B-11D1-83D9-444553540000}" URL="小箱交（用例图）.oom"/>
+		<Model Expanded="Yes" ID="{CE8C5E60-465E-4BF7-A396-305CA601E0F9}" Loaded="No" Name="coursereg_dataview" Type="{CDE44E21-9669-11D1-9914-006097355D9B}" URL="/Code/XiaoXiangJiao/model sample/coursereg_dataview.pdm"/>
 	</Local>
 	<BrowserModule Name="Repository"/>
 </Workspace>
