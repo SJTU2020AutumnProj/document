@@ -31,16 +31,6 @@ create table `take`
    `course_id`            int not null ,
    primary key (`user_id`, `course_id`),
    foreign key (`user_id`) REFERENCES `user` (`user_id`),
-   foreign key (`course_id`) REFERENCES `course` (`course_id`)
+   foreign key (`course_id`) REFERENCES `courseclass` (`course_id`)
 );
 
-drop table if exists `teach`;
-create table `teach`
-(
-   `user_id`                 int not null,
-   `course_id`            int not null ,
-   `role`                 varchar(30) ,
-   primary key (`user_id`, `course_id`),
-   foreign key (`user_id`) REFERENCES `user` (`user_id`),
-   foreign key (`course_id`) REFERENCES `course` (`course_id`)
-);
