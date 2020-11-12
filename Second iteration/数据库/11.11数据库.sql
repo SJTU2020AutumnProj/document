@@ -4,7 +4,7 @@ create table `courseclass`
    course_id            int not null auto_increment,
    course_name          varchar(100) not null,
    introduction         varchar(1000),
-   textbooks            varchar(1000),
+   text_books            varchar(1000),
    start_time           time,
    end_time             time,
    primary key (course_id)
