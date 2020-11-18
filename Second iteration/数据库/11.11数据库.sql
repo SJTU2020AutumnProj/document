@@ -5,8 +5,8 @@ create table `courseclass`
    course_name          varchar(100) not null,
    introduction         varchar(1000),
    text_books            varchar(1000),
-   start_time           time,
-   end_time             time,
+   start_time           date,
+   end_time             date,
    primary key (course_id)
 );
 
