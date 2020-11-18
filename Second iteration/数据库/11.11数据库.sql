@@ -29,6 +29,7 @@ create table `take`
 (
    `user_id`                 int not null,
    `course_id`            int not null ,
+   `role`                  int not null,
    primary key (`user_id`, `course_id`),
    foreign key (`user_id`) REFERENCES `user` (`user_id`),
    foreign key (`course_id`) REFERENCES `courseclass` (`course_id`)
