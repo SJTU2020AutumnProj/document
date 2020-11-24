@@ -33,3 +33,4 @@ create table `take`
    primary key (`user_id`, `course_id`)
 );
 
+INSERT INTO courseclass VALUES(1,	"CSE",	"计算机工程原理",	"Com. Sys. Eng.",	"2020-10-26",	"2020-12-03")
