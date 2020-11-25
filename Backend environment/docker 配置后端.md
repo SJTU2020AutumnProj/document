@@ -12,7 +12,7 @@ docker pull golang:latest
 
 有desktop的同学要现在docker 的setting->resourses->file sharing中添加GOPATH的路径，不然在后续文件夹挂载的时候会报错
 
-![image-20201125103707782](docker 配置后端.assets/image-20201125103707782.png)
+![image-20201125103707782](https://github.com/SJTU2020AutumnProj/document/blob/master/Backend%20environment/docker%20%E9%85%8D%E7%BD%AE%E5%90%8E%E7%AB%AF.assets/image-20201125103707782.png?raw=true)
 
 设置完成后，再在命令行输入如下指令
 
