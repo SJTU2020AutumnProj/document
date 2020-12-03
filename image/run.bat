@@ -1,1 +1,0 @@
-python scan.py -i ./images/test.jpg
