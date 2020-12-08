@@ -25,10 +25,12 @@ homework表：
 |             |      |
 | ----------- | ---- |
 | homework_id |      |
+| course_id   |      |
+| teacher_id  |      |
 | start_time  |      |
 | end_time    |      |
 
-
+mongoDB: course_id 和 json字符串
 
 answer表
 
