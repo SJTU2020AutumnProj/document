@@ -1,0 +1,4 @@
+- 下载安装go-realize：`go get github.com/oxequa/realize`
+- cd到项目目录，输入：`realize init`。一路回车就行，注意在配置完项目后提示是否配置下一个项目时选否
+- 项目目录下生成`.realize.yaml`文件。格式参考目录内的`.realize.yaml`。
+- 使用时输入`realize start`就行。
