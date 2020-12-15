@@ -11,7 +11,7 @@
  Target Server Version : 40402
  File Encoding         : 65001
 
- Date: 09/12/2020 09:21:06
+ Date: 15/12/2020 18:37:39
 */
 
 
@@ -31,6 +31,21 @@ db.getCollection("answer").insert([ {
 } ]);
 
 // ----------------------------
+// Collection structure for check
+// ----------------------------
+db.getCollection("check").drop();
+db.createCollection("check");
+
+// ----------------------------
+// Documents of check
+// ----------------------------
+db.getCollection("check").insert([ {
+    _id: ObjectId("5fd8916f6506000015006573"),
+    "check_id": 1,
+    "check_json": "47BCE5C74F589F4867DBD57E9CA9F808"
+} ]);
+
+// ----------------------------
 // Collection structure for homework
 // ----------------------------
 db.getCollection("homework").drop();
@@ -39,8 +54,3 @@ db.createCollection("homework");
 // ----------------------------
 // Documents of homework
 // ----------------------------
-db.getCollection("homework").insert([ {
-    _id: ObjectId("5fcf5cda4130000012000a74"),
-    "homework_id": 1,
-    "homework_json": "\t9F6E6800CFAE7749EB6C486619254B9C"
-} ]);
