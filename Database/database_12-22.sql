@@ -4,9 +4,10 @@ create table `courseclass`
    course_id            int not null auto_increment,
    course_name          varchar(1024) not null,
    introduction         varchar(1024) not null,
-   text_books            varchar(1024) not null,
+   text_books           varchar(1024) not null,
    start_time           datetime not null,
    end_time             datetime not null,
+   state                int not null,
    primary key (course_id)
 );
 
@@ -28,13 +29,13 @@ create table `user`
 drop table if exists `take`;
 create table `take`
 (
-   `user_id`                 int not null,
-   `course_id`            int not null ,
-   `role`                  int not null,
-   primary key (`user_id`, `course_id`)
+   user_id                 int not null,
+   course_id            int not null ,
+   role                  int not null,
+   primary key (user_id, course_id)
 );
 
-INSERT INTO courseclass VALUES(1,	"CSE",	"计算机工程原理",	"Com. Sys. Eng.",	"2020-10-26",	"2020-12-03");
+INSERT INTO courseclass VALUES(1,	"CSE",	"计算机工程原理",	"Com. Sys. Eng.",	"2020-10-26",	"2020-12-03",1);
 
 drop table if exists `homework`;
 create table `homework`
