@@ -84,8 +84,8 @@ create table `user_homework`
 (
    homework_id                 int not null,
    user_id                     int not null,
-   answer_id                   int not null,
-   check_id                    int not null,
+   answer_id                   int ,
+   check_id                    int ,
    state                       int not null,
    primary key (`homework_id`, `user_id`)
 );
