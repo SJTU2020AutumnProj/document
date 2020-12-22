@@ -46,6 +46,7 @@ create table `homework`
    start_time datetime not null,
    end_time    datetime not null,
    title       varchar(1024) not null,
+   state       int,
    primary key (homework_id)
 );
 
