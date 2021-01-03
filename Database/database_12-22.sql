@@ -76,6 +76,7 @@ create table `message`
    user_id                    int not null,
    course_id                  int not null,
    title                      varchar(1024) not null,
+   state                      int not null,
    primary key (message_id)
 );
 
