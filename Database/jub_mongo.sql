@@ -11,7 +11,7 @@
  Target Server Version : 40402
  File Encoding         : 65001
 
- Date: 22/12/2020 21:26:12
+ Date: 03/01/2021 20:28:40
 */
 
 
@@ -77,19 +77,4 @@ db.getCollection("message").insert([ {
     _id: ObjectId("5fe1f1fbab200000a3007ea5"),
     "message_id": 99999,
     content: "通知通知"
-} ]);
-
-// ----------------------------
-// Collection structure for user
-// ----------------------------
-db.getCollection("user").drop();
-db.createCollection("user");
-
-// ----------------------------
-// Documents of user
-// ----------------------------
-db.getCollection("user").insert([ {
-    _id: ObjectId("5fe1f35cab200000a3007ea6"),
-    "user_id": 99999,
-    avatar: "LyoqKioqKiog5pu05paw5pe26Ze077yaMjAxOeW5tDEx5pyIMTjml6UyMzozMjowOCAqKioqKioqKioqKioqLwogLyoqKioqKiog5pu05paw5YaF5a6577ya5aKe5Yqg57yW56CB6YCJ5oup44CCICoqKioqKioqKioqKiovCiAxLuaUr+aMgSBHQksgJiBHQjIzMTIgCiAyLuaUr+aMgSBVVEY4IOe8luegge+8iOm7mOiupO+8iQog"
 } ]);
