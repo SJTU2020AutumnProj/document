@@ -12,7 +12,8 @@
 		<Model Expanded="Yes" ID="{EBC07EA1-91A6-4F22-846C-CE670B15DEE5}" Loaded="No" Name="Class Diagram_1" Type="{18112060-1A4B-11D1-83D9-444553540000}" URL="../../设计模式/ORB.oom"/>
 		<Model Expanded="Yes" ID="{EBC07EA1-91A6-4F22-846C-CE670B15DEE5}" Loaded="No" Name="Class Diagram_1" Type="{18112060-1A4B-11D1-83D9-444553540000}" URL="../../设计模式/ORB.oom"/>
 		<Model Expanded="Yes" ID="{EBC07EA1-91A6-4F22-846C-CE670B15DEE5}" Loaded="No" Name="Class Diagram_1" Type="{18112060-1A4B-11D1-83D9-444553540000}" URL="../../设计模式/ORB.oom"/>
-		<Model Expanded="Yes" ID="{EBC07EA1-91A6-4F22-846C-CE670B15DEE5}" Name="Class Diagram_1" Selected="Yes" Type="{18112060-1A4B-11D1-83D9-444553540000}" URL="../../设计模式/ORB.oom"/>
+		<Model Expanded="Yes" ID="{EBC07EA1-91A6-4F22-846C-CE670B15DEE5}" Loaded="No" Name="Class Diagram_1" Type="{18112060-1A4B-11D1-83D9-444553540000}" URL="../../设计模式/ORB.oom"/>
+		<Model Expanded="Yes" ID="{0C89EBFD-2C4D-4CEA-8B33-03FAD7CA87B5}" Name="ConceptualDataModel_1" Selected="Yes" Type="{1E597170-9350-11D1-AB3C-0020AF71E433}" URL="file:///C|/Users/Deng/Desktop/database_XXJ.cdm"/>
 	</Local>
 	<BrowserModule Name="Repository"/>
 </Workspace>
