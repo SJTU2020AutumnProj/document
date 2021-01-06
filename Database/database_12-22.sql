@@ -48,6 +48,7 @@ create table `homework`
    title       varchar(1024) not null,
    state       int,
    answer_id int,
+   score  int,
    primary key (homework_id)
 );
 
