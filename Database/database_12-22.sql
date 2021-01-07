@@ -40,15 +40,15 @@ INSERT INTO courseclass VALUES(1,	"CSE",	"计算机工程原理",	"Com. Sys. Eng
 drop table if exists `homework`;
 create table `homework`
 (
-   homework_id int not null auto_increment,
-   course_id int not null,
-   user_id  int not null,
-   start_time datetime not null,
-   end_time    datetime not null,
-   title       varchar(1024) not null,
-   state       int,
-   answer_id int,
-   score  int,
+   homework_id    int not null auto_increment,
+   course_id      int not null,
+   user_id        int not null,
+   start_time     datetime not null,
+   end_time       datetime not null,
+   title          varchar(1024) not null,
+   state          int,
+   answer_id      int default -1,
+   score          int,
    primary key (homework_id)
 );
 
@@ -87,8 +87,8 @@ create table `user_homework`
 (
    homework_id                 int not null,
    user_id                     int not null,
-   answer_id                   int ,
-   check_id                    int ,
+   answer_id                   int default -1,
+   check_id                    int default -1,
    state                       int not null,
    primary key (`homework_id`, `user_id`)
 );
